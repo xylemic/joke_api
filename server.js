@@ -4,7 +4,7 @@ const http = require('http');
 const { title } = require('process');
 const url = require('url');
 
-// In-memory database
+// In-memory db
 let db = [
   { id: 1, title: 'Why did the chicken cross the road?', comedian: 'Daniel Johnson', year: 2020 },
   { id: 2, title: 'Why was the math book sad?', comedian: 'Jane Smith', year: 2022 },
